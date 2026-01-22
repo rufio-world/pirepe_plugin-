@@ -1,0 +1,58 @@
+.novabuilder-editor-wrap {
+	margin: 0;
+}
+
+#novabuilder-editor-root {
+	min-height: 80vh;
+}
+
+.novabuilder-editor {
+	display: flex;
+	gap: 16px;
+}
+
+.novabuilder-sidebar {
+	width: 280px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	padding: 16px;
+}
+
+.novabuilder-canvas {
+	flex: 1;
+	border: 1px dashed #c3c4c7;
+	min-height: 70vh;
+	padding: 16px;
+	background: #f9fafb;
+}
+
+.novabuilder-node {
+	background: #fff;
+	border: 1px solid #e2e4e7;
+	padding: 12px;
+	margin-bottom: 12px;
+}
+
+.novabuilder-toolbar {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+
+.novabuilder-inline {
+	border: 1px solid #dcdcde;
+	padding: 6px 8px;
+	border-radius: 3px;
+	background: #fff;
+}
+
+.novabuilder-widget-list button {
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+.novabuilder-device-toggle {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 12px;
+}
